@@ -1,5 +1,15 @@
 # SETools - Maya (v4.1.0) (DEPRECATED)
 
+---
+
+# About this Fork
+
+This is a Fork of the original SETools project, which fixes the "required argument is not an integer" error when exporting SEModel files in Maya 2022.
+
+Original project link: [SETools - Maya](https://github.com/dtzxporter/SETools).
+
+---
+
 # NOTICE: SEAnims/SEModels are now DEPRECATED. Cast is the newly supported model and animation format.
 
 - Convert SEModels to Cast Losslessly [SECast](https://dtzxporter.com/tools/secast)
