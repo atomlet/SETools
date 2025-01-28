@@ -433,7 +433,12 @@ class Vertex(object):
 
     def saveColor(self, file):
         bytes = struct.pack(
-            "=4B", self.color[0] * 255, self.color[1] * 255, self.color[2] * 255, self.color[3] * 255)
+            "=4B",
+            int(self.color[0] * 255),
+            int(self.color[1] * 255),
+            int(self.color[2] * 255),
+            int(self.color[3] * 255)
+        )
         file.write(bytes)
 
     def saveWeights(self, file, maxSkinInfluence, bone_t):
